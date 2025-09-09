@@ -1,0 +1,92 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content1 %}
+<div class="row my-5">
+ <div class="col-4 d-flex justify-content-center align-items-center">
+    <img src="{% static 'images/im.jpg' %}" alt="image" class="about_image">
+ </div>
+
+ <div class="col-7 text-left text-light">
+     <h2> Hello !</h2>
+     <p class="fs-5">
+        I am Sachin Kumar Yadav, a passionate and goal-oriented Computer Science enthusiast 
+        currently pursuing an M.Tech in Computer Science and Engineering at IIT Patna.  
+        My dedication to learning and problem-solving is reflected in my accomplishments, 
+        such as securing an All India Rank of 882 in GATE CSE 2024 and earning competitive 
+        ratings on platforms like CodeChef and HackerRank.
+     </p>
+     <p class="fs-5">
+        My technical skill set spans programming languages like C/C++, Python, HTML, CSS, and SQL, 
+        complemented by a solid foundation in algorithms, data structures, and system design.
+        Beyond academics and projects, I am committed to leveraging my skills to solve real-world problems 
+        and contribute meaningfully to technology-driven innovation. 
+        My journey is driven by curiosity, persistence, and a desire to make a positive impact through technology.
+     </p>
+
+ </div>
+</div>
+
+
+<div class="row my-2">
+    <h2 class="text-center" style="color:#4fffb0"> My Tech Stack</h2>
+
+    <div class="d-flex justify-content-around align-items-center">
+      <img
+          src="{% static 'images/html.png' %}"
+          width="70"
+          height="70"
+          alt="HTML Logo"
+          class="img-fluid"
+      />
+
+      <img
+          src="{% static 'images/css.png' %}"
+          width="70"
+          height="70"
+          alt="CSS Logo"
+          class="img-fluid"
+      />
+
+      <img
+          src="{% static 'images/js.png' %}"
+          width="70"
+          height="70"
+          alt="JavaScript Logo"
+          class="img-fluid"
+      />
+
+      <img
+          src="{% static 'images/python.jpg' %}"
+          width="60"
+          height="60"
+          alt="Python Logo"
+          class="img-fluid"
+      />
+
+      <img
+          src="{% static 'images/cpp.jpg' %}"
+          width="60"
+          height="60"
+          alt="CPP Logo"
+          class="img-fluid"
+      />
+
+      <img
+          src="{% static 'images/download.png' %}"
+          width="70"
+          height="70"
+          alt="Django Logo"
+          class="img-fluid"
+      />
+      <img
+          src="{% static 'images/dsa.jpg' %}"
+          width="70"
+          height="70"
+          alt="DSA Logo"
+          class="img-fluid"
+      />
+  </div>
+
+</div>
+
+{% endblock content1 %}
