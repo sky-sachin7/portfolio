@@ -20,7 +20,7 @@ def project(request):
         },
         {
             "title": "Portfolio Website",
-            "link": "https://github.com/sky-sachin7/portfolio_website",
+            "link": "https://sachin7.pythonanywhere.com/",
             "description": "A personal portfolio website showcasing skills and projects."
         },
          {
